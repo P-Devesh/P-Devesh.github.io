@@ -243,6 +243,19 @@ footer {
   transition: 0.3s;
 }
 
+/* Scroll animation */
+.hidden {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
 .btn-small:hover {
   background: #00f2fe;
   color: #273c75;
