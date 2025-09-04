@@ -3,102 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Devesh Kumar P - Portfolio</title>
+  <title>Devesh Kumar P | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
-    <h1>Devesh Kumar P</h1>
-    <p>AI & Data Science | Machine Learning | Generative AI | Data Analytics</p>
-    <p>
-      📞 +91 7418782430 | 
-      ✉️ <a href="mailto:deveshkumar2048@gmail.com" style="color:white;">deveshkumar2048@gmail.com</a> | 
-      🔗 <a href="https://linkedin.com/in/p-devesh" target="_blank" style="color:white;">LinkedIn</a>
-    </p>
-  </header>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <!-- About Section -->
-  <section>
-    <h2>About Me</h2>
-    <p>
-      Enthusiastic and results-driven AI & Data professional skilled in Machine Learning, Generative AI, and Data Analytics.
-      Adept at designing and implementing intelligent systems, analyzing large datasets, and delivering data-driven insights.
-      Passionate about applying cutting-edge AI research to solve real-world challenges.
-    </p>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h1>Devesh Kumar P</h1>
+    <p class="typing"></p>
+    <a href="#contact" class="btn">Contact Me</a>
   </section>
 
   <!-- Skills Section -->
-  <section>
-    <h2>Key Skills</h2>
+  <section id="skills">
+    <h2>Skills</h2>
     <ul>
-      <li>Python, SQL, Java (Basics)</li>
-      <li>Machine Learning & AI: Scikit-learn, TensorFlow, PyTorch</li>
-      <li>Generative AI & NLP: Google Gemini API, LangChain, RAG, Transformers, OpenCV</li>
-      <li>Data Analytics: Pandas, NumPy, Power BI, MySQL, Matplotlib, Seaborn</li>
-      <li>Tools: VS Code, GitHub, Jupyter, Colab, Excel</li>
-      <li>Soft Skills: Problem-Solving, Communication, Teamwork</li>
+      <li><strong>Languages:</strong> Python, SQL, Java (Basics)</li>
+      <li><strong>Machine Learning & AI:</strong> Scikit-learn, TensorFlow, PyTorch, NLP</li>
+      <li><strong>GenAI & NLP Tools:</strong> Google Gemini API, LangChain, Transformers, Vector DB</li>
+      <li><strong>Data Analytics:</strong> Power BI, Pandas, NumPy, Seaborn, MySQL</li>
+      <li><strong>Tools & Platforms:</strong> Git, GitHub, Streamlit, Excel</li>
+      <li><strong>Soft Skills:</strong> Problem Solving, Communication, Teamwork</li>
     </ul>
   </section>
 
   <!-- Experience Section -->
-  <section>
+  <section id="experience">
     <h2>Experience</h2>
-    <p><b>Data Analyst Intern | Tansam-Siemens, Chennai (03/2024 – 04/2024)</b></p>
+    <h3>Data Analyst Intern | Tansam-Siemens, Chennai (03/2024 – 04/2024)</h3>
     <ul>
       <li>Processed and structured public records using SQL for faster retrieval.</li>
-      <li>Designed Power BI dashboards with DAX, reducing reporting time by 30%.</li>
-      <li>Conducted Python-based data analysis for actionable insights.</li>
+      <li>Built Power BI dashboards (30% faster reports).</li>
+      <li>Performed Python data analysis for insights.</li>
     </ul>
   </section>
 
   <!-- Projects Section -->
-  <section>
+  <section id="projects">
     <h2>Projects</h2>
-    <p><b>AI Career Coach – GenAI Chat Assistant</b></p>
-    <ul>
-      <li>Built ATS analysis + job skill extraction with Google Gemini 1.5 Pro.</li>
-      <li>Created RAG pipeline with FAISS and Sentence Transformers.</li>
-      <li>Interactive UI with Streamlit, deployed on Streamlit Cloud.</li>
-    </ul>
-
-    <p><b>Real-Time Animal Detection (YOLOv8 + OpenCV)</b></p>
-    <ul>
-      <li>Real-time detection of multiple animal classes in images/videos.</li>
-      <li>Dataset annotation + training with Roboflow, integrated alerts.</li>
-    </ul>
-
-    <p><b>Multiple Disease Prediction App</b></p>
-    <ul>
-      <li>Machine learning app using SVM + Logistic Regression.</li>
-      <li>Deployed on Streamlit Cloud for real-time predictions.</li>
-    </ul>
+    <div class="project-card">
+      <h3>AI Career Coach – GenAI Chat Assistant</h3>
+      <p>Resume ATS analysis, skill extraction, and mock interview Q&A with Google Gemini.</p>
+    </div>
+    <div class="project-card">
+      <h3>Real-Time Animal Detection (YOLOv8 + OpenCV)</h3>
+      <p>Accurate real-time detection with alerts, bounding boxes, and notifications.</p>
+    </div>
+    <div class="project-card">
+      <h3>Disease Prediction Model</h3>
+      <p>ML models predicting Diabetes, Heart Disease, and Parkinson’s with 90% accuracy.</p>
+    </div>
   </section>
 
-  <!-- Education -->
-  <section>
+  <!-- Education Section -->
+  <section id="education">
     <h2>Education</h2>
-    <p><b>B.Tech – Artificial Intelligence & Data Science (2021 – 2025)</b><br>
-      Panimalar Institute of Technology, Chennai | CGPA: 8.4</p>
-    <p><b>Grade 12 (2019 – 2021)</b><br>
-      Bharathidhasanar MHSS | Percentage: 90.16</p>
+    <ul>
+      <li><strong>B.Tech – Artificial Intelligence & Data Science</strong> (2021 – 2025) | CGPA: 8.4</li>
+      <li><strong>Grade 12</strong> (2019 – 2021) | Percentage: 90.16%</li>
+    </ul>
   </section>
 
-  <!-- Certifications -->
-  <section>
+  <!-- Certifications Section -->
+  <section id="certifications">
     <h2>Certifications</h2>
     <ul>
-      <li>Data Science & AI Masters 2025 – Udemy</li>
+      <li>Data Science & AI Masters 2025 (Udemy)</li>
       <li>SQL – HackerRank</li>
-      <li>Career Essentials in Data Analysis – Microsoft & LinkedIn</li>
+      <li>Data Analysis Essentials – Microsoft & LinkedIn</li>
     </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Phone:</strong> +91 7418782430</p>
+    <p><strong>Email:</strong> deveshkumar2048@gmail.com</p>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/p-devesh" target="_blank">linkedin.com/in/p-devesh</a></p>
+    <p><strong>Location:</strong> Chennai, India</p>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Devesh Kumar P | Portfolio</p>
+    <p>© 2025 Devesh Kumar P | Built with ❤️ using GitHub Pages</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
